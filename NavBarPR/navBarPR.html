@@ -1,0 +1,94 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+	<head>
+		<link rel="stylesheet" type="text/css" href="navBarPR.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="parent">
+			<div class="Navbar">
+					<div class="Navbar__Link Navbar__Link-logo">
+					  	<img id="navLog" src="Slike/fisha.png" alt="FiSha" width="25px" height="25px">
+					 </div>
+					<div class="Navbar__Link Navbar_toggle">
+					    <i class="fa fa-bars" ></i>
+					 </div>
+				  
+				   <nav class="Navbar__Items Navbar__Items--right">
+					 <div class="Navbar__Link">
+							<a href="#">O NAMA</a>
+					 </div>
+					 <div class="Navbar__Link">
+							<a href="#">NOVOSTI</a>
+					 </div>
+					 <div class="Navbar__Link">
+							<a href="#">ZAPOSLENICI</a>
+					</div>
+					<div class="Navbar__Link">
+							<a href="#">KONTAKT</a>
+					</div>
+				   </nav>
+				 </div>
+			</div>	 
+		<script>
+			
+			function classToggle() {
+  				const navs = document.querySelectorAll('.Navbar__Items')
+  
+ 				 navs.forEach(nav => nav.classList.toggle('Navbar_toggleShow'));
+				}
+
+				document.querySelector('.Navbar_toggle')
+  				.addEventListener('click', classToggle);
+		</script>
+		
+		<script type="text/javascript">
+			$(document).on('click','nav a', function(){
+				$(this).addClass('active').siblings().removeClass('active')
+			})
+		</script>
+			<script>
+				
+			$(document).ready(function () {
+   				$(document).on("scroll", onScroll);
+    
+    		//smoothscroll
+    			$('a[href^="#"]').on('click', function (e) {
+        			e.preventDefault();
+        			$(document).off("scroll");
+        
+        			$('a').each(function () {
+            		$(this).removeClass('active');
+        		})
+        		$(this).addClass('active');
+      
+        		var target = this.hash,
+            	menu = target;
+        		$target = $(target);
+        		$('html, body').stop().animate({
+            		'scrollTop': $target.offset().top+2
+        		}, 500, 'swing', function () {
+            		window.location.hash = target;
+            		$(document).on("scroll", onScroll);
+        		});
+    			});
+			});
+			</script>
+			<script>
+				window.onscroll = function() {myFunction()};
+
+				var navbar = document.getElementById("Navbar");
+
+				var sticky = navbar.offsetTop;
+
+				function myFunction() {
+  					if (window.pageYOffset >= sticky) {
+    					navbar.classList.add("sticky")
+  					} else {
+    					navbar.classList.remove("sticky");
+  					}
+				}
+			</script>
+		<img src="Slike/tree.jpg" alt="drvo" width="100%" height="100%">
+	</body>

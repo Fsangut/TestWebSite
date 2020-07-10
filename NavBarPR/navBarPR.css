@@ -1,0 +1,95 @@
+body{
+	background-color:#fff;
+	font-family: Alegreya;
+	font-weight: 100;
+}
+@font-face{
+	font-family: 'Alegreya';
+	src:url(fonts/Alegreya-Regular.ttf);
+	font-style:normal;
+	font-weight: 100;
+}
+
+  .parent {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+  }
+.Navbar {
+	background-color:#fff;
+	display: flex;
+	padding: 16px;
+	font-family: sans-serif;
+	color: #262626;
+	/*background-image: linear-gradient(260deg, #E0FF4F 0%, #FF3C38 100%);*/
+
+  }
+
+  .Navbar__Link-logo{
+	  margin-left: 30px;
+	  font-weight:bold;
+  }
+    .Navbar_toggle {
+	display: none;
+  }
+  .Navbar__Link {
+	padding-right: 8px;
+	margin-right: 10px;
+  }
+  
+  .Navbar__Items {
+	display: flex;
+  }
+  
+  .Navbar__Items--right {
+	margin-left:auto;
+	margin-right: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+  }
+  .Navbar__Items--right a{
+	text-decoration:none;
+	color:#262626;
+  }
+  .Navbar__Items--right a:hover{
+	color:#FF3C38;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+	.Navbar__Items,
+	.Navbar {
+	  flex-direction: column;
+	}
+	  
+  .Navbar__Items {
+	  display:none;
+	}
+	.Navbar__Link-logo{
+		margin-left: 0px;
+	}
+		  
+  .Navbar__Items--right {
+	  margin-top: 10px;
+	  margin-left:0;
+	  margin-right: 0px;
+	  text-align: center;
+	}
+	  
+  .Navbar_toggleShow {
+	  display: flex;
+	}
+	  
+  .Navbar_toggle {
+	  align-self: flex-end;
+	  display: initial;
+	  position: absolute;
+	  cursor: pointer;
+	}
+	.Navbar__Link {
+	margin-top: 5px;
+	} 
+  }

@@ -1,0 +1,28 @@
+<div class="row">
+			<div class="col-1"><h2 id="h2img">Dr. Evica Jurèeviæ</h2>
+			<img src="Slike/Doc.png" class="doc" alt="Slika Dr. Evice Jurèeviæ"/>
+			<p class="Pimg">Uspješna i poznata doktorica opæe medicine. Lijeènik je zdravstveni radnik koji je završio medicinski fakultet i stekao akademski naziv doktora medicine. Lijeènik je temeljni i mjerodavni nositelj zdravstvene djelatnosti.
+U mnogim državama, pa tako i u Hrvatskoj, kao preduvjet za dobivanje odobrenja za samostalan rad (licence), od lijeènika se zahtjeva polaganje državnog struènog ispita.
+U Hrvatskoj studiji medicine, pa tako i veterinarske i dentalne medicine traju 6 godina. Nakon studija medicine moguæe je nastaviti specijalizaciju koja traje 4 do 6 godina.</p></div>
+			<div class="col-2"><h2 id="h2imgSestra">Med. sestra Sanja</h2>
+			<img src="Slike/Nurse.png" class="nurse" alt="Slika Med. sestre Sanje"/>
+			<p class="PimgSestra">Medicinska sestra - tehnièar radi na podruèju zdravstva, s ciljem zaštite zdravlja pojedinca, obitelji i cjelokupnog puèanstva[1]. Opis posla ukljuèuje skrb, praæenje, nadzor i savjetovanje pacijenata, prevenciju, rehabilitaciju, zdravstveni odgoj, promicanje zdravlja, voðenje sestrinske dokumentacije, izvoðenje dijagnostièkih te medicinsko-tehnièkih zahvata te zdravstvene njege.
+Medicinske sestre i tehnièari, kao èlanovi regulirane profesije, svoju djelatnost provode na svim razinama zdravstvene zaštite - u javnozdravstvenim dispanzerima, ambulantama, bolnicama i domovima zdravlja, domovima umirovljenika i dr. Postoje razlike u kompetencijama medicinskih sestara i tehnièara ovisno o stupnju obrazovanja te mjestu zaposlenja.</p></div>
+		</div>
+	
+			<div class="row">
+				<div class="column" >
+					<h2 id="h2img">Dr. Evica Jurèeviæ</h2>
+					<img src="Slike/Doc.png" class="doc" alt="Slika Dr. Evice Jurèeviæ"/>
+					<p>Uspješna i poznata doktorica opæe medicine. Lijeènik je zdravstveni radnik koji je završio medicinski fakultet i stekao akademski naziv doktora medicine. Lijeènik je temeljni i mjerodavni nositelj zdravstvene djelatnosti.
+					U mnogim državama, pa tako i u Hrvatskoj, kao preduvjet za dobivanje odobrenja za samostalan rad (licence), od lijeènika se zahtjeva polaganje državnog struènog ispita.
+					U Hrvatskoj studiji medicine, pa tako i veterinarske i dentalne medicine traju 6 godina. Nakon studija medicine moguæe je nastaviti specijalizaciju koja traje 4 do 6 godina.</p>
+				</div>
+				<div class="column" >
+					<h2 id="h2imgSestra">Med. sestra Sanja</h2>
+					<img src="Slike/Nurse.png" class="nurse" alt="Slika Med. sestre Sanje"/>
+					<p>Medicinska sestra - tehnièar radi na podruèju zdravstva, s ciljem zaštite zdravlja pojedinca, obitelji i cjelokupnog puèanstva[1]. Opis posla ukljuèuje skrb, praæenje, nadzor i savjetovanje pacijenata, prevenciju, rehabilitaciju, zdravstveni odgoj, promicanje zdravlja, voðenje sestrinske dokumentacije, izvoðenje dijagnostièkih te medicinsko-tehnièkih zahvata te zdravstvene njege.
+					Medicinske sestre i tehnièari, kao èlanovi regulirane profesije, svoju djelatnost provode na svim razinama zdravstvene zaštite - u javnozdravstvenim dispanzerima, ambulantama, bolnicama i domovima zdravlja, domovima umirovljenika i dr. Postoje razlike u kompetencijama medicinskih sestara i tehnièara ovisno o stupnju obrazovanja te mjestu zaposlenja.</p>
+				</div>
+  
+			</div>
